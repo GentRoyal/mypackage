@@ -33,7 +33,7 @@ print(maths.minimum(numbers))  # Output: 1
 print(maths.maximum(numbers))  # Output: 5
 print(maths.mean(numbers))     # Output: 2.8
 print(maths.median(numbers))   # Output: 3
-print(maths.mode(numbers))     # Output: 1 or [1, 3]
+print(maths.mode(numbers))     # Output: 1
 
 # Using OTP function
 otp = others.OTP(6)
