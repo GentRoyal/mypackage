@@ -1,4 +1,5 @@
 import math
+import numpy as np
 class maths:    
     """Mathematical operations class, including functions for minimum, maximum, mean, mode, median,
     length, and sorting of iterables."""
@@ -140,6 +141,6 @@ class others:
         """
         OTP = ""  # Initialize OTP as an empty string
         for i in range(ndigits):  # Loop through the number of digits
-            random_digit = math.floor(random.random() * 10)  # Generate a random digit
+            random_digit = math.floor(np.random.random() * 10)  # Generate a random digit
             OTP += str(random_digit)  # Append the random digit to the OTP
         return OTP  # Return the generated OTP
