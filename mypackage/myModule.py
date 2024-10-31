@@ -1,3 +1,4 @@
+import math
 class maths:    
     """Mathematical operations class, including functions for minimum, maximum, mean, mode, median,
     length, and sorting of iterables."""
