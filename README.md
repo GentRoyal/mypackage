@@ -18,7 +18,7 @@
 You can install MyPackage via pip:
 
 ```bash
-pip install mypackage
+pip install git+https://github.com/GentRoyal/mypackage.git
 ```
 
 ## Usage
